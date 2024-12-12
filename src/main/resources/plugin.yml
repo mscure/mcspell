@@ -1,0 +1,12 @@
+name: mcspell
+version: '1.0-SNAPSHOT'
+main: plugin.mcspell.Mcspell
+api-version: '1.21.3'
+
+commands:
+  mcspell-help:
+    description: Help command
+  givedia:
+    description: Give diamond command
+  openinv:
+    description: Open inventory command

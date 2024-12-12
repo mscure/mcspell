@@ -22,9 +22,10 @@ public final class Mcspell extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new breakevent(), this);
         getServer().getPluginManager().registerEvents(new InvClickEvent(), this);
         getServer().getPluginManager().registerEvents(new JoinEvent(), this);
-        getServer().getPluginCommand("thelp").setExecutor(new help());
-        getServer().getPluginCommand("tgivedia").setExecutor(new givedia());
-        getServer().getPluginCommand("topeninv").setExecutor(new GUIopen());
+        getServer().getPluginCommand("mcspell-help").setExecutor(new help());
+        getServer().getPluginCommand("givedia").setExecutor(new givedia());
+        getServer().getPluginCommand("openinv").setExecutor(new GUIopen());
+
 
         config.addDefault("display-message", true);
         config.addDefault("message", "hello!");

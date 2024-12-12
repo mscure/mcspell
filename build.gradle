@@ -55,5 +55,5 @@ processResources {
 
 jar {
     archiveFileName = 'mcspell.jar'
-    destinationDirectory = file("C:\\Users\\LG\\Documents\\mcplugin") //pc에 따라 경로 변경할 것
+    destinationDirectory = file("C:\\Users\\LG\\Documents\\mcserver\\plugins") //pc에 따라 경로 변경할 것
 }

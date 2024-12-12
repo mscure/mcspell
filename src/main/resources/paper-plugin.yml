@@ -1,4 +1,0 @@
-name: mcspell
-version: '1.0-SNAPSHOT'
-main: plugin.mcspell.Mcspell
-api-version: '1.21'
